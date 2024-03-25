@@ -1,7 +1,7 @@
 # Swarm-LIO2
 **Swarm-LIO2: Decentralized, Efficient LiDAR-inertial Odometry for UAV Swarms**
 
-==Code, paper, video are coming soon......==
+Code, paper, video are coming soon......
 
 
 
