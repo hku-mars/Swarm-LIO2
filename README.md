@@ -2,7 +2,7 @@
 
 ## Introduction
 
-**Swarm-LIO2 ** is a fully decentralized, plug-and-play, computationally efficient, and bandwidth-efficient LiDAR-inertial odometry for aerial swarm systems.
+**Swarm-LIO2** is a fully decentralized, plug-and-play, computationally efficient, and bandwidth-efficient LiDAR-inertial odometry for aerial swarm systems.
 
 Our package address following key issues:
 
