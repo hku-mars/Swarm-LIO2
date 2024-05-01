@@ -1,6 +1,8 @@
 # Swarm-LIO2
 
-## Introduction
+## Swarm-LIO2: Decentralized, Effcient LiDAR-inertial Odometry for UAV Swarms
+
+### Introduction
 
 **Swarm-LIO2** is a fully decentralized, plug-and-play, computationally efficient, and bandwidth-efficient LiDAR-inertial odometry for aerial swarm systems.
 
@@ -12,9 +14,7 @@ Our package address following key issues for a ***UAV swarm system***:
 4. Excellent **robustness in various scenarios:** indoor, outdoor, dark night, degenerate corridors...
 5. Support **diverse UAV swarm applications**: target tracking, collaborative exploration, payload transportation...
 
-
-
-## Improvements
+### Improvements
 
 **Swarm-LIO2** improves our previous work Swarm-LIO (see below) mainly in five crucial aspects:
 
@@ -24,18 +24,27 @@ Our package address following key issues for a ***UAV swarm system***:
 4) **Comprehensive Experiments**: more extensive experiments in both simulated and real-world environments are conducted, which demonstrate superior performances in terms of robustness, efficiency, and wide supportability to diverse aerial swarm applications.
 5) **Open Source**: all the system designs will be open-sourced to contribute the robotic society.
 
+### Developers
 
+[Fangcheng Zhu 朱方程](https://github.com/zfc-zfc)， [Yunfan Ren 任云帆](https://github.com/RENyunfan)
 
-## Code, paper, video
+### Related Paper
 
-Code and paper are coming soon......
+Related paper will be available on **arxiv** soon.
+
+### Related Video
 
 The accompanying video of **Swarm-LIO2** is available on [YouTube](https://youtu.be/NxHN0DlvvY4):
 
 <div align="center">
     <a href="https://youtu.be/NxHN0DlvvY4" target="_blank">
-    <img src="image/cover.png" width=950% />
+    <img src="image/cover.png" width=70% />
 </div>
+
+### Code & Datasets
+
+Our paper is currently under review, our code and datasets will be released once the paper is accepted.
+
 
 
 
