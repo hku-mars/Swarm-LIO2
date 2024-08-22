@@ -37,7 +37,7 @@ Related paper will be available on **arxiv** soon.
 The accompanying video of **Swarm-LIO2** is available on [YouTube](https://youtu.be/Q7cJ9iRhlrY):
 
 <div align="center">
-    <a href="https://youtu.be/NxHN0DlvvY4" target="_blank">
+    <a href="https://youtu.be/Q7cJ9iRhlrY" target="_blank">
     <img src="image/cover.png" width=70% />
 </div>
 
