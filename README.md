@@ -30,7 +30,7 @@ Our package address following key issues for a ***UAV swarm system***:
 
 ### Related Paper
 
-Related paper will be available on **arxiv** soon.
+Related paper is available on **arxiv**: [Swarm-LIO2](https://arxiv.org/abs/2409.17798).
 
 ### Related Video
 
