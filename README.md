@@ -24,7 +24,7 @@ Our package address following key issues for a ***UAV swarm system***:
 4) **Comprehensive Experiments**: more extensive experiments in both simulated and real-world environments are conducted, which demonstrate superior performances in terms of robustness, efficiency, and wide supportability to diverse aerial swarm applications.
 5) **Open Source**: all the system designs will be open-sourced to contribute the robotic society.
 
-### Developers
+### Core Developers
 
 [Fangcheng Zhu 朱方程](https://github.com/zfc-zfc)， [Yunfan Ren 任云帆](https://github.com/RENyunfan)
 
