@@ -1,0 +1,11 @@
+<!-- Launch file for Drone Swarm in Real-world Experiment -->
+<launch>
+	<node pkg="swarm_lio" type="swarm_lio" name="laserMapping_quad" output="screen" >
+		<rosparam command="load" file="$(find swarm_lio)/config/avia.yaml" />
+		<param name="drone_id" type="int" value="2"/>
+		<param name="sub_gt_pose_topic" type="string" value="/vrpn_client_node/mars_multi_03/pose"/>
+	</node>
+	<group>
+		<node launch-prefix="nice" pkg="rviz" type="rviz" name="rviz_avia" args="-d $(find swarm_lio)/rviz_cfg/avia.rviz" />
+	</group>
+</launch>

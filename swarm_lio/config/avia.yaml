@@ -1,0 +1,73 @@
+common:
+    lid_topic: "/livox/lidar"
+    imu_topic: "/mavros/imu/data"
+    time_offset_lidar_imu: 0.0
+    drone_id: 1
+
+multiuav:
+    cluster_extraction_in_predict_region: true
+    inten_threshold: 240
+    min_high_inten_cluster_size: 5
+    min_cluster_size: 10
+    predict_region_radius: 0.4
+    temp_predict_region_radius: 0.5
+    traj_matching_start_thresh: 120.0
+    ave_match_error_thresh: 0.2
+    pos_num_in_traj: 500
+    reset_tracker_thresh: 5.0
+    valid_cluster_size_thresh: 0.6
+    valid_cluster_dist_thresh: 0.3
+    mutual_observe_noise: 0.001
+    frame_num_in_sliding_window: 2
+    actual_uav_num: 2
+    degeneration_thresh: 30
+
+imu_propagate:
+    enable: true
+    topic: "/lidar_slam/imu_propagate"
+    filter_acc_en: false
+
+preprocess:
+    lidar_type: 1                # Avia
+    feature_extract_en: false
+    scan_line: 6
+    blind: 0.5
+    
+calibration:
+    cut_frame_en: false
+    cut_frame_num: 1
+    accumulate_frame_en: false
+    original_frequency: 30 # hz
+    gravity_align_enable: true
+    gravity_align_time: 10 # seconds
+    PX4_R_I: [ 0.0, 0.0, 0.0 ] # degree
+    PX4_p_I: [ 0.0, 0.0, 0.0 ] # meter
+    level_horizon: [ 0.0, 0.0, 0.0 ] #degree
+
+mapping:
+    imu_en: true
+    acc_cov: 0.1
+    gyr_cov: 0.1
+    b_acc_cov: 0.0001
+    b_gyr_cov: 0.0001
+    det_range:     450.0
+    LI_extrinsic_T: [ 0.027709, 0.013624, 0.101131 ]
+    #    LI_extrinsic_T: [ 0.0, 0.0, 0.1 ]
+    LI_extrinsic_R: [0.999593, 0.015951, -0.023661, -0.015200, 0.999386, 0.031582, 0.024150, -0.031210, 0.999221]
+    point_filter_num: 4
+    max_iteration: 4
+    filter_size_surf: 0.2
+    filter_size_map: 0.25
+    cube_side_length: 2000
+
+publish:
+    path_en: true
+    scan_publish_en:  true       # false: close all the point cloud output
+    dense_publish_en: true       # false: low down the points number in a global-frame point clouds scan.
+    scan_bodyframe_pub_en: false  # true: output the point cloud scans in IMU-body-frame
+
+pcd_save:
+    pcd_save_en: false
+    pcd_resolution: 0.1
+    interval: -1                # how many LiDAR frames saved in each pcd file;
+                                 # -1 : all frames will be saved in ONE pcd file, may lead to memory crash when having too much frames.

@@ -1,0 +1,11 @@
+<!-- Launch file for Drone Swarm in Real-world Experiment -->
+<launch>
+
+	<node pkg="swarm_lio" type="swarm_lio" name="laserMapping_quad" output="screen">
+		<rosparam command="load" file="$(find swarm_lio)/config/mid360.yaml" />
+		<param name="sub_gt_pose_topic" type="string" value="/vrpn_client_node/mars_multi_01/pose"/>
+	</node>
+	<group>
+		<node launch-prefix="nice" pkg="rviz" type="rviz" name="rviz_mid360" args="-d $(find swarm_lio)/rviz_cfg/mid360.rviz" />
+	</group>
+</launch>

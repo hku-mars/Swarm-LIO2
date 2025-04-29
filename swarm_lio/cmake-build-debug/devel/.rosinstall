@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/fangcheng/workspace/uav_lio_ws/src/swarm_lio/cmake-build-debug/devel/setup.sh

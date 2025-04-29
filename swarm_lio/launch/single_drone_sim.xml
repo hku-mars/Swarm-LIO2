@@ -1,0 +1,12 @@
+<launch>
+    <arg name="drone_id"/>
+    <arg name="output_mode"/>
+    <node pkg="swarm_lio" type="swarm_lio" name="laserMapping_quad$(arg drone_id)" output="$(arg output_mode)">
+        <rosparam command="load" file="$(find swarm_lio)/config/simulation.yaml" />
+        <param name="drone_id" type="int" value="$(arg drone_id)"/>
+        <param name="common/lid_topic" type="string" value="/quad$(arg drone_id)_pcl_render_node/sensor_cloud"/>
+        <param name="common/imu_topic" type="string" value="/quad_$(arg drone_id)/imu"/>
+        <param name="sub_gt_pose_topic" type="string" value="/quad_$(arg drone_id)/lidar_slam/odom"/>
+    </node>
+    output="screen"
+</launch>

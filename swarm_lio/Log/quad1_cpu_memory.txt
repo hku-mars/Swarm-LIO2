@@ -1,0 +1,1 @@
+lidar_end_time     cpu(%)     memory(GB)

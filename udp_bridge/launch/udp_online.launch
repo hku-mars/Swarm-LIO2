@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="udp_bridge" name="udp_online" type="udp_online" output="screen">
+    </node>
+</launch>

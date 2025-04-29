@@ -1,0 +1,212 @@
+<!-- Launch file for Simulation Drone Swarm -->
+<launch>
+<!--	<include file="$(find swarm_lio)/launch/single_drone_sim.xml">-->
+<!--		<arg name="drone_id" value="0"/>-->
+<!--		<arg name="output_mode" value="screen"/>-->
+<!--	</include>-->
+
+	<include file="$(find swarm_lio)/launch/single_drone_sim.xml">
+		<arg name="drone_id" value="1"/>
+		<arg name="output_mode" value="screen"/>
+	</include>
+
+	<include file="$(find swarm_lio)/launch/single_drone_sim.xml">
+		<arg name="drone_id" value="2"/>
+		<arg name="output_mode" value="log"/>
+	</include>
+
+	<include file="$(find swarm_lio)/launch/single_drone_sim.xml">
+		<arg name="drone_id" value="3"/>
+		<arg name="output_mode" value="log"/>
+	</include>
+
+	<include file="$(find swarm_lio)/launch/single_drone_sim.xml">
+		<arg name="drone_id" value="4"/>
+		<arg name="output_mode" value="log"/>
+	</include>
+
+	<include file="$(find swarm_lio)/launch/single_drone_sim.xml">
+		<arg name="drone_id" value="5"/>
+		<arg name="output_mode" value="log"/>
+	</include>
+
+<!--	<include file="$(find swarm_lio)/launch/single_drone_sim.xml">-->
+<!--		<arg name="drone_id" value="6"/>-->
+<!--	    <arg name="output_mode" value="log"/>-->
+<!--	</include>-->
+
+<!--	<include file="$(find swarm_lio)/launch/single_drone_sim.xml">-->
+<!--		<arg name="drone_id" value="7"/>-->
+<!--		<arg name="output_mode" value="log"/>-->
+<!--	</include>-->
+
+<!--	<include file="$(find swarm_lio)/launch/single_drone_sim.xml">-->
+<!--		<arg name="drone_id" value="8"/>-->
+<!--		<arg name="output_mode" value="log"/>-->
+<!--	</include>-->
+
+<!--	<include file="$(find swarm_lio)/launch/single_drone_sim.xml">-->
+<!--		<arg name="drone_id" value="9"/>-->
+<!--		<arg name="output_mode" value="log"/>-->
+<!--	</include>-->
+
+<!--	<include file="$(find swarm_lio)/launch/single_drone_sim.xml">-->
+<!--		<arg name="drone_id" value="10"/>-->
+<!--		<arg name="output_mode" value="log"/>-->
+<!--	</include>-->
+
+<!--	<include file="$(find swarm_lio)/launch/single_drone_sim.xml">-->
+<!--		<arg name="drone_id" value="11"/>-->
+<!--		<arg name="output_mode" value="log"/>-->
+<!--	</include>-->
+
+<!--	<include file="$(find swarm_lio)/launch/single_drone_sim.xml">-->
+<!--		<arg name="drone_id" value="12"/>-->
+<!--		<arg name="output_mode" value="log"/>-->
+<!--	</include>-->
+
+<!--	<include file="$(find swarm_lio)/launch/single_drone_sim.xml">-->
+<!--		<arg name="drone_id" value="13"/>-->
+<!--		<arg name="output_mode" value="log"/>-->
+<!--	</include>-->
+
+<!--	<include file="$(find swarm_lio)/launch/single_drone_sim.xml">-->
+<!--		<arg name="drone_id" value="14"/>-->
+<!--		<arg name="output_mode" value="log"/>-->
+<!--	</include>-->
+
+<!--	<include file="$(find swarm_lio)/launch/single_drone_sim.xml">-->
+<!--		<arg name="drone_id" value="15"/>-->
+<!--		<arg name="output_mode" value="log"/>-->
+<!--	</include>-->
+
+<!--	<include file="$(find swarm_lio)/launch/single_drone_sim.xml">-->
+<!--		<arg name="drone_id" value="16"/>-->
+<!--		<arg name="output_mode" value="log"/>-->
+<!--	</include>-->
+
+<!--	<include file="$(find swarm_lio)/launch/single_drone_sim.xml">-->
+<!--		<arg name="drone_id" value="17"/>-->
+<!--		<arg name="output_mode" value="log"/>-->
+<!--	</include>-->
+
+<!--	<include file="$(find swarm_lio)/launch/single_drone_sim.xml">-->
+<!--		<arg name="drone_id" value="18"/>-->
+<!--		<arg name="output_mode" value="log"/>-->
+<!--	</include>-->
+
+<!--	<include file="$(find swarm_lio)/launch/single_drone_sim.xml">-->
+<!--		<arg name="drone_id" value="19"/>-->
+<!--		<arg name="output_mode" value="log"/>-->
+<!--	</include>-->
+
+<!--	<include file="$(find swarm_lio)/launch/single_drone_sim.xml">-->
+<!--		<arg name="drone_id" value="20"/>-->
+<!--		<arg name="output_mode" value="log"/>-->
+<!--	</include>-->
+
+<!--	<include file="$(find swarm_lio)/launch/single_drone_sim.xml">-->
+<!--		<arg name="drone_id" value="21"/>-->
+<!--		<arg name="output_mode" value="log"/>-->
+<!--	</include>-->
+
+<!--	<include file="$(find swarm_lio)/launch/single_drone_sim.xml">-->
+<!--		<arg name="drone_id" value="22"/>-->
+<!--		<arg name="output_mode" value="log"/>-->
+<!--	</include>-->
+
+<!--	<include file="$(find swarm_lio)/launch/single_drone_sim.xml">-->
+<!--		<arg name="drone_id" value="23"/>-->
+<!--		<arg name="output_mode" value="log"/>-->
+<!--	</include>-->
+
+<!--	<include file="$(find swarm_lio)/launch/single_drone_sim.xml">-->
+<!--		<arg name="drone_id" value="24"/>-->
+<!--		<arg name="output_mode" value="log"/>-->
+<!--	</include>-->
+
+<!--	<include file="$(find swarm_lio)/launch/single_drone_sim.xml">-->
+<!--		<arg name="drone_id" value="25"/>-->
+<!--		<arg name="output_mode" value="log"/>-->
+<!--	</include>-->
+
+<!--	<include file="$(find swarm_lio)/launch/single_drone_sim.xml">-->
+<!--		<arg name="drone_id" value="26"/>-->
+<!--		<arg name="output_mode" value="log"/>-->
+<!--	</include>-->
+
+<!--	<include file="$(find swarm_lio)/launch/single_drone_sim.xml">-->
+<!--		<arg name="drone_id" value="27"/>-->
+<!--		<arg name="output_mode" value="log"/>-->
+<!--	</include>-->
+
+<!--	<include file="$(find swarm_lio)/launch/single_drone_sim.xml">-->
+<!--		<arg name="drone_id" value="28"/>-->
+<!--		<arg name="output_mode" value="log"/>-->
+<!--	</include>-->
+
+<!--	<include file="$(find swarm_lio)/launch/single_drone_sim.xml">-->
+<!--		<arg name="drone_id" value="29"/>-->
+<!--		<arg name="output_mode" value="log"/>-->
+<!--	</include>-->
+
+<!--	<include file="$(find swarm_lio)/launch/single_drone_sim.xml">-->
+<!--		<arg name="drone_id" value="30"/>-->
+<!--		<arg name="output_mode" value="log"/>-->
+<!--	</include>-->
+
+<!--	<include file="$(find swarm_lio)/launch/single_drone_sim.xml">-->
+<!--		<arg name="drone_id" value="31"/>-->
+<!--		<arg name="output_mode" value="log"/>-->
+<!--	</include>-->
+<!--	<include file="$(find swarm_lio)/launch/single_drone_sim.xml">-->
+<!--		<arg name="drone_id" value="32"/>-->
+<!--		<arg name="output_mode" value="log"/>-->
+<!--	</include>-->
+
+<!--	<include file="$(find swarm_lio)/launch/single_drone_sim.xml">-->
+<!--		<arg name="drone_id" value="33"/>-->
+<!--		<arg name="output_mode" value="log"/>-->
+<!--	</include>-->
+<!--	<include file="$(find swarm_lio)/launch/single_drone_sim.xml">-->
+<!--		<arg name="drone_id" value="34"/>-->
+<!--		<arg name="output_mode" value="log"/>-->
+<!--	</include>-->
+<!--	<include file="$(find swarm_lio)/launch/single_drone_sim.xml">-->
+<!--		<arg name="drone_id" value="35"/>-->
+<!--		<arg name="output_mode" value="log"/>-->
+<!--	</include>-->
+<!--	<include file="$(find swarm_lio)/launch/single_drone_sim.xml">-->
+<!--		<arg name="drone_id" value="36"/>-->
+<!--		<arg name="output_mode" value="log"/>-->
+<!--	</include>-->
+<!--	<include file="$(find swarm_lio)/launch/single_drone_sim.xml">-->
+<!--		<arg name="drone_id" value="37"/>-->
+<!--		<arg name="output_mode" value="log"/>-->
+<!--	</include>-->
+<!--	<include file="$(find swarm_lio)/launch/single_drone_sim.xml">-->
+<!--		<arg name="drone_id" value="38"/>-->
+<!--		<arg name="output_mode" value="log"/>-->
+<!--	</include>-->
+<!--	<include file="$(find swarm_lio)/launch/single_drone_sim.xml">-->
+<!--		<arg name="drone_id" value="39"/>-->
+<!--		<arg name="output_mode" value="log"/>-->
+<!--	</include>-->
+<!--	<include file="$(find swarm_lio)/launch/single_drone_sim.xml">-->
+<!--		<arg name="drone_id" value="40"/>-->
+<!--		<arg name="output_mode" value="log"/>-->
+<!--	</include>-->
+
+
+	<group>
+<!--		<node launch-prefix="nice" pkg="rviz" type="rviz" name="rviz_0" args="-d $(find swarm_lio)/rviz_cfg/sim00.rviz" />-->
+        <node launch-prefix="nice" pkg="rviz" type="rviz" name="rviz_1" args="-d $(find swarm_lio)/rviz_cfg/sim01.rviz" />
+		<node launch-prefix="nice" pkg="rviz" type="rviz" name="rviz_2" args="-d $(find swarm_lio)/rviz_cfg/sim02.rviz" />
+<!--		<node launch-prefix="nice" pkg="rviz" type="rviz" name="rviz_3" args="-d $(find swarm_lio)/rviz_cfg/sim03.rviz" />-->
+<!--		<node launch-prefix="nice" pkg="rviz" type="rviz" name="rviz_4" args="-d $(find swarm_lio)/rviz_cfg/sim04.rviz" />-->
+<!--		<node launch-prefix="nice" pkg="rviz" type="rviz" name="rviz_5" args="-d $(find swarm_lio)/rviz_cfg/sim05.rviz" />-->
+<!--		<node launch-prefix="nice" pkg="rviz" type="rviz" name="rviz_6" args="-d $(find swarm_lio)/rviz_cfg/sim06.rviz" />-->
+<!--		<node launch-prefix="nice" pkg="rviz" type="rviz" name="rviz_7" args="-d $(find swarm_lio)/rviz_cfg/sim07.rviz" />-->
+	</group>
+
+</launch>
