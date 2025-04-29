@@ -72,7 +72,7 @@ sudo apt-get install cmake
 sudo apt-get install libtbb-dev
 ```
 
-Download **GTSAM** from [Onedrive]([Swarm-LIO2 data and dependencies](https://connecthkuhk-my.sharepoint.com/:f:/g/personal/zhufc_connect_hku_hk/EukeIEnyaGJEpIBezJmVGocBSrUpLdXXCpUHPVgdZmk5JQ?e=lutLC0)), and
+Download **GTSAM** from [Swarm-LIO2 data and dependencies](https://connecthkuhk-my.sharepoint.com/:f:/g/personal/zhufc_connect_hku_hk/EukeIEnyaGJEpIBezJmVGocBSrUpLdXXCpUHPVgdZmk5JQ?e=lutLC0), and
 
 ```
 mkdir build
@@ -128,7 +128,7 @@ roslaunch swarm_lio livox_mid360.launch
 
 ### 6. Play example rosbag
 
-Download example rosbag -- mutual_avoidance_uav1.bag --  from [Onedrive]([Swarm-LIO2 data and dependencies](https://connecthkuhk-my.sharepoint.com/:f:/g/personal/zhufc_connect_hku_hk/EukeIEnyaGJEpIBezJmVGocBSrUpLdXXCpUHPVgdZmk5JQ?e=lutLC0)), then
+Download example rosbag -- mutual_avoidance_uav1.bag --  from [Swarm-LIO2 data and dependencies](https://connecthkuhk-my.sharepoint.com/:f:/g/personal/zhufc_connect_hku_hk/EukeIEnyaGJEpIBezJmVGocBSrUpLdXXCpUHPVgdZmk5JQ?e=lutLC0), then
 
 ```
 cd swarm_ws
@@ -137,9 +137,8 @@ roslaunch swarm_lio livox_mid360.launch
 rosbag play mutual_avoidance_uav1.bag
 ```
 
-<div align="center">
-    <img src="image/example_bag.png" width=80% />
-</div>
+![](./images/example_bag.png)
+
 
 
 
