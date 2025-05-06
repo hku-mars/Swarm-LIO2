@@ -4,27 +4,26 @@
     <h2>Swarm-LIO2: Decentralized, Effcient LiDAR-inertial Odometry for UAV Swarms</h2>
     <strong>IEEE Transactions on Robotics '25</strong>
     <br>
-
-	<a href="https://github.com/zfc-zfc" target="_blank">Fangcheng Zhu</a>,
-    <a href="https://github.com/RENyunfan" target="_blank">Yunfan REN</a>
-    <a href="https://github.com/YLJ6038" target="_blank">Longji Yin</a>,
-    <a href="https://github.com/jackykongfz" target="_blank">Fanze Kong</a>,
-    <a href="https://github.com/LIU0703" target="_blank">Qingbo Liu</a>,
-    <a href="https://github.com/1f-small-Xue-study-today" target="_blank">Ruize Xue</a>,
-    <a href="https://github.com/FENYUN323" target="_blank">Wenyi Liu</a>,
-    <a href="https://github.com/Ecstasy-EC" target="_blank">Yixi Cai</a>, 
-    <a href="https://github.com/genegzl" target="_blank">Guozheng Lu</a>,
-    <a href="https://github.com/luo-xue" target="_blank">Haotian Li</a>, and
-        <a href="https://mars.hku.hk/people.html" target="_blank">Fu Zhang</a>
+    <a href="https://github.com/zfc-zfc" target="_blank">Fangcheng Zhu</a>,
+	<a href="https://github.com/RENyunfan" target="_blank">Yunfan REN</a>
+	<a href="https://github.com/YLJ6038" target="_blank">Longji Yin</a>,
+	<a href="https://github.com/jackykongfz" target="_blank">Fanze Kong</a>,
+	<a href="https://github.com/LIU0703" target="_blank">Qingbo Liu</a>,
+	<a href="https://github.com/1f-small-Xue-study-today" target="_blank">Ruize Xue</a>,
+	<a href="https://github.com/FENYUN323" target="_blank">Wenyi Liu</a>,
+	<a href="https://github.com/Ecstasy-EC" target="_blank">Yixi Cai</a>, 
+	<a href="https://github.com/genegzl" target="_blank">Guozheng Lu</a>,
+	<a href="https://github.com/luo-xue" target="_blank">Haotian Li</a>, and
+    <a href="https://mars.hku.hk/people.html" target="_blank">Fu Zhang</a>
     <p>
         <h45>
             <br>
-           <img src='./image/mars_logo.svg' alt='HKU MaRS Lab'>
+           		<img src='./image/mars_logo.svg' alt='HKU MaRS Lab'>
             <br>
         </h5>
     </p>
     <a href="https://www.bilibili.com/video/BV1vTsMeqEQm/?share_source=copy_web&vd_source=24d23f7c9a4f818a4a3073d18bf46fa2"><img alt="Bilibili" src="./image/Video-Bilibili-blue.svg"/></a>
-    <a href="https://youtu.be/Q7cJ9iRhlrY"><img alt="Youtube" src="./image/Video-Youtube-red.svg"/></a>
+	<a href="https://youtu.be/Q7cJ9iRhlrY"><img alt="Youtube" src="./image/Video-Youtube-red.svg"/></a>
 </div>
 
 ### Introduction
