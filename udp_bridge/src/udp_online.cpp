@@ -40,11 +40,11 @@
 
 #define DEBUG_FILE_DIR(name)     (string(string(ROOT_DIR) + "log/"+ name))
 
-#define BACKWARD_HAS_DW 1
-#include "backward.hpp"
-namespace backward {
-    backward::SignalHandling sh;
-}
+//#define BACKWARD_HAS_DW 1
+//#include "backward.hpp"
+//namespace backward {
+//    backward::SignalHandling sh;
+//}
 
 using namespace Eigen;
 using namespace std;
