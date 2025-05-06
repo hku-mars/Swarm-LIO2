@@ -90,7 +90,7 @@ Clone the repository and catkin_make:
 
 ```
 cd ~/swarm_ws/src
-git clone https://gitlab.djicorp.com/swarm-odometry/swarm-odometry.git
+git clone git@github.com:hku-mars/Swarm-LIO2.git
 cd ..
 catkin_make -j
 source devel/setup.bash
@@ -128,7 +128,7 @@ roslaunch swarm_lio livox_mid360.launch
 
 ### 6. Play example rosbag
 
-Download example rosbag -- mutual_avoidance_uav1.bag --  from [Swarm-LIO2 data and dependencies](https://connecthkuhk-my.sharepoint.com/:f:/g/personal/zhufc_connect_hku_hk/EukeIEnyaGJEpIBezJmVGocBSrUpLdXXCpUHPVgdZmk5JQ?e=lutLC0), then
+Download example rosbag (real-world data) -- mutual_avoidance_uav1.bag --  from [Swarm-LIO2 data and dependencies](https://connecthkuhk-my.sharepoint.com/:f:/g/personal/zhufc_connect_hku_hk/EukeIEnyaGJEpIBezJmVGocBSrUpLdXXCpUHPVgdZmk5JQ?e=lutLC0), then
 
 ```
 cd swarm_ws
