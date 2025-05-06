@@ -1,6 +1,33 @@
 # Swarm-LIO2
 
-## Swarm-LIO2: Decentralized, Effcient LiDAR-inertial Odometry for UAV Swarms
+
+
+<div align="center">
+    <h2>Swarm-LIO2: Decentralized, Effcient LiDAR-inertial Odometry for UAV Swarms</h2>
+    <strong>IEEE Transactions on Robotics '25</strong>
+    <br>
+
+	<a href="https://github.com/zfc-zfc" target="_blank">Fangcheng Zhu</a>,
+    <a href="https://github.com/RENyunfan" target="_blank">Yunfan REN</a>
+    <a href="https://github.com/YLJ6038" target="_blank">Longji Yin</a>,
+    <a href="https://github.com/jackykongfz" target="_blank">Fanze Kong</a>,
+    <a href="https://github.com/LIU0703" target="_blank">Qingbo Liu</a>,
+    <a href="https://github.com/1f-small-Xue-study-today" target="_blank">Ruize Xue</a>,
+    <a href="https://github.com/FENYUN323" target="_blank">Wenyi Liu</a>,
+    <a href="https://github.com/Ecstasy-EC" target="_blank">Yixi Cai</a>, 
+    <a href="https://github.com/genegzl" target="_blank">Guozheng Lu</a>,
+    <a href="https://github.com/luo-xue" target="_blank">Haotian Li</a>, and
+        <a href="https://mars.hku.hk/people.html" target="_blank">Fu Zhang</a>
+    <p>
+        <h45>
+            <br>
+           <img src='./image/mars_logo.svg' alt='HKU MaRS Lab'>
+            <br>
+        </h5>
+    </p>
+    <a href="https://www.bilibili.com/video/BV1vTsMeqEQm/?share_source=copy_web&vd_source=24d23f7c9a4f818a4a3073d18bf46fa2"><img alt="Bilibili" src="./image/Video-Bilibili-blue.svg"/></a>
+    <a href="https://youtu.be/Q7cJ9iRhlrY"><img alt="Youtube" src="./image/Video-Youtube-red.svg"/></a>
+</div>
 
 ### Introduction
 
@@ -24,10 +51,6 @@ Our package address following key issues for a ***UAV swarm system***:
 4) **Comprehensive Experiments**: more extensive experiments in both simulated and real-world environments are conducted, which demonstrate superior performances in terms of robustness, efficiency, and wide supportability to diverse aerial swarm applications.
 5) **Open Source**: all the system designs will be open-sourced to contribute the robotic society.
 
-### Core Developers
-
-[Fangcheng Zhu 朱方程](https://github.com/zfc-zfc)， [Yunfan Ren 任云帆](https://github.com/RENyunfan)
-
 ### Related Paper
 
 Related paper is available on **arxiv**: [Swarm-LIO2](https://arxiv.org/abs/2409.17798).
@@ -46,9 +69,9 @@ The accompanying video of **Swarm-LIO2** is available on [YouTube](https://youtu
 
 #### 1.1 Ubuntu and ROS
 
-Ubuntu >= 18.04.
+Ubuntu = 20.04.
 
-ROS    >= Melodic. [ROS Installation](http://wiki.ros.org/ROS/Installation)
+ROS = Noetic. [ROS Installation](http://wiki.ros.org/ROS/Installation)
 
 #### 1.2. PCL && Eigen
 
@@ -137,7 +160,7 @@ roslaunch swarm_lio livox_mid360.launch
 rosbag play mutual_avoidance_uav1.bag
 ```
 
-![](./images/example_bag.png)
+![](./image/example_bag.png)
 
 
 
