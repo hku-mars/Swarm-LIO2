@@ -60,7 +60,7 @@ The accompanying video of **Swarm-LIO2** is available on [YouTube](https://youtu
     <a href="https://youtu.be/Q7cJ9iRhlrY" target="_blank">
     <img src="image/cover.png" width=70% />
 </div>
-## Code 
+## Code
 
 ### 1. Prerequisites
 
@@ -157,7 +157,7 @@ roslaunch swarm_lio livox_mid360.launch
 rosbag play mutual_avoidance_uav1.bag
 ```
 
-![](./image/example_bag.png)
+![](./image/example_bag.gif)
 
 
 
