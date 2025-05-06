@@ -102,7 +102,7 @@ target_link_libraries(swarm_lio
         ${GTSAM_LIBRARIES}
         -lgtsam
         -ltbb
-        dw)
+        )
 target_include_directories(swarm_lio PRIVATE ${PYTHON_INCLUDE_DIRS})
 
 

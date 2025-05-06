@@ -37,38 +37,4 @@ add_executable(udp_online
         )
 target_link_libraries(udp_online
         ${catkin_LIBRARIES}
-        dw)
-
-add_executable(team_monitor
-        src/team_monitor.cpp
-        )
-target_link_libraries(team_monitor
-        ${catkin_LIBRARIES}
-        )
-add_executable(udp_offline
-        src/udp_offline.cpp
-        )
-target_link_libraries(udp_offline
-        ${catkin_LIBRARIES}
-        )
-add_executable(distributed_bag_player
-        src/distributed_bag_player.cpp
-        )
-target_link_libraries(distributed_bag_player
-        ${catkin_LIBRARIES}
-        )
-
-add_executable(trigger_monitor
-        src/trigger_monitor.cpp
-        )
-target_link_libraries(trigger_monitor
-        ${catkin_LIBRARIES}
-        )
-
-add_executable(distributed_sim
-        src/distributed_sim.cpp
-        )
-target_link_libraries(distributed_sim
-        ${catkin_LIBRARIES}
-        dw
         )
